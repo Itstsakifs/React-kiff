@@ -18,6 +18,7 @@ export default function Navbar() {
                     <NavLink href="/about">About</NavLink>
                     <NavLink href="/gallery">Gallery</NavLink>
                     <NavLink href="/axios">Axios</NavLink>
+                    <NavLink href="/crud">Crud</NavLink>
                 </div>
             </Case>
         </div>

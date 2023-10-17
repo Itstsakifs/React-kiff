@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Gallery from "../pages/Gallery";
 import Axios from "../pages/Axios"
+import Crud from "../pages/Crud";
 
 export default function () {
     return (
@@ -12,6 +13,7 @@ export default function () {
             <Route path="about" element={<About />} />
             <Route path="gallery" element={<Gallery />} />
             <Route path="axios" element={<Axios />} />
+            <Route path="crud" element={<Crud />} />
         </Routes>
     );
 }
